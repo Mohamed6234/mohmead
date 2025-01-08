@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة التسوق | أمازون السودان</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .cart-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .cart-item {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1rem;
+        }
+
+        .cart-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-left: 1rem;
+        }
+
+        .item-details {
+            flex: 1;
+        }
+
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .quantity-controls button {
+            padding: 0.5rem 1rem;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .cart-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .checkout-button {
+            background-color: #f0c14b;
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo sudan.png" alt="أمازون السودان" class="logo-image" width="90" height="90">
+                </a>
+            </div>
+            <!-- باقي الكود... -->
+        </div>
+    </header>
+
+    <main class="cart-container">
+        <h2>سلة التسوق</h2>
+        
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="images/electronics/iphone.jpg" alt="آيفون">
+                <div class="item-details">
+                    <h3>آيفون 14 برو ماكس</h3>
+                    <p class="price">450,000 جنيه سوداني</p>
+                </div>
+                <div class="quantity-controls">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                <button class="remove-item">حذف</button>
+            </div>
+            
+            <!-- المزيد من المنتجات في السلة -->
+        </div>
+
+        <div class="cart-summary">
+            <h3>ملخص الطلب</h3>
+            <p>عدد المنتجات: 1</p>
+            <p>المجموع: 450,000 جنيه سوداني</p>
+            <p>الشحن: 5,000 جنيه سوداني</p>
+            <h4>الإجمالي: 455,000 جنيه سوداني</h4>
+            <a href="checkout.html" class="checkout-button">متابعة الشراء</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2024 أمازون السودان</p>
+    </footer>
+</body>
+</html> 

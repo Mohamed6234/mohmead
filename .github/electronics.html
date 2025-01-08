@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإلكترونيات | أمازون السودان</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="أمازون السودان" class="logo-image" width="90" height="90">
+                </a>
+            </div>
+            <div class="search-bar">
+                <input type="search" placeholder="ابحث عن الإلكترونيات...">
+            </div>
+            <a href="cart.html" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span>سلة التسوق</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="clothes.html">الملابس</a></li>
+                <li><a href="accessories.html">الإكسسوارات</a></li>
+                <li><a href="electronics.html">الإلكترونيات</a></li>
+                <li><a href="home.html">مستلزمات المنزل</a></li>
+                <li><a href="personal-care.html">منتجات العناية الشخصية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h2 class="category-title">الإلكترونيات</h2>
+        
+        <div class="filters">
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label for="sort">ترتيب حسب</label>
+                    <select id="sort">
+                        <option value="price-asc">السعر: من الأقل إلى الأعلى</option>
+                        <option value="price-desc">السعر: من الأعلى إلى الأقل</option>
+                        <option value="name-asc">الاسم: أ-ي</option>
+                        <option value="name-desc">الاسم: ي-أ</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="brand">الماركة</label>
+                    <select id="brand">
+                        <option value="">الكل</option>
+                        <option value="apple">آبل</option>
+                        <option value="samsung">سامسونج</option>
+                        <option value="lg">إل جي</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>نطاق السعر</label>
+                    <div class="price-range">
+                        <input type="number" placeholder="من" min="0">
+                        <input type="number" placeholder="إلى" min="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="iphone-7479306_1280.jpg" alt="آيفون">
+                <h3>آيفون 14 برو ماكس</h3>
+                <p class="price">450,000 جنيه سوداني</p>
+                <p class="description">هاتف ذكي مع كاميرا متطورة وشاشة 6.7 بوصة</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="apple-3144234_1280.jpg" alt="ماك بوك">
+                <h3>ماك بوك برو</h3>
+                <p class="price">750,000 جنيه سوداني</p>
+                <p class="description">معالج M2، ذاكرة 16GB، تخزين 512GB</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="headphones-5282687_1280.jpg" alt="سماعات">
+                <h3>ايربودز برو</h3>
+                <p class="price">120,000 جنيه سوداني</p>
+                <p class="description">سماعات لاسلكية مع خاصية إلغاء الضوضاء</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="netflix-6964935_1280.jpg" alt="تلفاز ذكي">
+                <h3>تلفاز سامسونج QLED</h3>
+                <p class="price">350,000 جنيه سوداني</p>
+                <p class="description">شاشة 65 بوصة مع تقنية 4K</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="ipad-605420_1280.jpg" alt="آيباد">
+                <h3>آيباد برو</h3>
+                <p class="price">280,000 جنيه سوداني</p>
+                <p class="description">شاشة 12.9 بوصة مع قلم آبل</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="video-game-console-2202634_1280.jpg" alt="بلايستيشن">
+                <h3>بلايستيشن 5</h3>
+                <p class="price">420,000 جنيه سوداني</p>
+                <p class="description">مع يدين تحكم وثلاث ألعاب</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="camera-4613669_1280.jpg" alt="كاميرا">
+                <h3>كاميرا كانون</h3>
+                <p class="price">180,000 جنيه سوداني</p>
+                <p class="description">كاميرا احترافية مع عدسة 18-55mm</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="apple-watch-1694985_1280.jpg" alt="ساعة ذكية">
+                <h3>ساعة آبل الذكية</h3>
+                <p class="price">150,000 جنيه سوداني</p>
+                <p class="description">الإصدار الأحدث مع تتبع الصحة</p>
+                <button class="add-to-cart">أضف إلى السلة</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>من نحن</h3>
+                <p>أمازون السودان هو متجر إلكتروني رائد في السودان، نقدم تشكيلة واسعة من المنتجات عالية الجودة بأسعار منافسة مع خدمة توصيل سريعة وموثوقة.</p>
+            </div>
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                    <li><a href="terms.html">الشروط والأحكام</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>تواصل معنا</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة © 2025 أمازون السودان</p>
+        </div>
+    </footer>
+</body>
+</html> 

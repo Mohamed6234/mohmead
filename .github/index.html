@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أمازون السودان | Amazon Sudan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="أمازون السودان" class="logo-image" width="90" height="90">
+                </a>
+            </div>
+            <div class="search-bar">
+                <input type="search" placeholder="ابحث عن المنتجات...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <a href="login.html" class="login-link">تسجيل الدخول</a>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>سلة التسوق</span>
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="clothes.html">الملابس</a></li>
+                <li><a href="accessories.html">الإكسسوارات</a></li>
+                <li><a href="electronics.html">الإلكترونيات</a></li>
+                <li><a href="home.html">مستلزمات المنزل</a></li>
+                <li><a href="personal-care.html">منتجات العناية الشخصية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- قسم البانر الرئيسي -->
+        <section class="hero-banner">
+            <div class="banner-content">
+                <h2>تسوق بأفضل الأسعار</h2>
+                <p>اكتشف تشكيلة واسعة من المنتجات بأسعار تنافسية</p>
+                <a href="#featured" class="cta-button">تسوق الآن</a>
+              
+            </div>
+        </section>
+
+        <!-- قسم الفئات الرئيسية -->
+        <section class="main-categories">
+            <h2 class="section-title">تسوق حسب الفئة</h2>
+            <div class="categories-grid">
+                <a href="electronics.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800" alt="إلكترونيات">
+                    <h3>إلكترونيات</h3>
+                </a>
+                <a href="clothes.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=800" alt="ملابس">
+                    <h3>ملابس</h3>
+                </a>
+                <a href="home.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800" alt="مستلزمات المنزل">
+                    <h3>مستلزمات المنزل</h3>
+                </a>
+                <a href="personal-care.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800" alt="العناية الشخصية">
+                    <h3>العناية الشخصية</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- قسم العروض الخاصة -->
+        <section class="special-offers">
+            <h2 class="section-title">عروض خاصة</h2>
+            <div class="product-grid">
+                <div class="product-card special">
+                    <div class="discount-badge">خصم 30%</div>
+                    <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800" alt="تلفاز ذكي">
+                    <h3>تلفاز سامسونج QLED</h3>
+                    <p class="price">
+                        <span class="original-price">500,000</span>
+                        <span class="discounted-price">350,000 جنيه سوداني</span>
+                    </p>
+                    <p class="description">شاشة 65 بوصة مع تقنية 4K</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+
+                <div class="product-card special">
+                    <div class="discount-badge">خصم 25%</div>
+                    <img src="lounge-area-8268914_1280.jpg" alt="كنبة">
+                    <h3>كنبة مودرن</h3>
+                    <p class="price">
+                        <span class="original-price">120,000</span>
+                        <span class="discounted-price">90,000 جنيه سوداني</span>
+                    </p>
+                    <p class="description">كنبة ثلاثية مريحة</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+
+                <div class="product-card special">
+                    <div class="discount-badge">خصم 40%</div>
+                    <img src="smart-watch-821559_1280.jpg" alt="ساعة ذكية">
+                    <h3>ساعة آبل الذكية</h3>
+                    <p class="price">
+                        <span class="original-price">200,000</span>
+                        <span class="discounted-price">120,000 جنيه سوداني</span>
+                    </p>
+                    <p class="description">الإصدار الأحدث مع تتبع الصحة</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+
+                <div class="product-card special">
+                    <div class="discount-badge">خصم 35%</div>
+                    <img src="perfume-3220296_1280.jpg" alt="عطر">
+                    <h3>عطر شانيل بلو</h3>
+                    <p class="price">
+                        <span class="original-price">80,000</span>
+                        <span class="discounted-price">52,000 جنيه سوداني</span>
+                    </p>
+                    <p class="description">عطر رجالي فاخر 100مل</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المنتجات المميزة -->
+        <section id="featured" class="featured-products">
+            <h2 class="section-title">المنتجات المميزة</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="smartphone-7063771_1280.jpg" alt="هاتف سامسونج">
+                    <h3>هاتف سامسونج جالكسي A54</h3>
+                    <p class="price">150,000 جنيه سوداني</p>
+                    <p class="description">هاتف ذكي بشاشة 6.4 بوصة، كاميرا 50 ميجابكسل</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="living-room-8480223_1280.jpg" alt="طقم كنب">
+                    <h3>طقم كنب مودرن</h3>
+                    <p class="price">85,000 جنيه سوداني</p>
+                    <p class="description">طقم كنب 7 مقاعد مع طاولة وسط</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="perfume-2721147_1280.jpg" alt="عطر">
+                    <h3>عطر ديور سوفاج</h3>
+                    <p class="price">35,000 جنيه سوداني</p>
+                    <p class="description">عطر رجالي فاخر 100مل</p>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المميزات -->
+        <section class="features">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>توصيل سريع</h3>
+                    <p>توصيل إلى جميع أنحاء السودان</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>دفع آمن</h3>
+                    <p>طرق دفع متعددة وآمنة</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>دعم فني</h3>
+                    <p>دعم فني على مدار الساعة</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>من نحن</h3>
+                <p>أمازون السودان هو متجر إلكتروني رائد في السودان، نقدم تشكيلة واسعة من المنتجات عالية الجودة بأسعار منافسة مع خدمة توصيل سريعة وموثوقة.</p>
+            </div>
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                    <li><a href="terms.html">الشروط والأحكام</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>تواصل معنا</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة © 2025 أمازون السودان</p>
+        </div>
+    </footer>
+</body>
+</html>
